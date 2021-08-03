@@ -13,7 +13,6 @@ def partition(arr, low, high):
 
 def quicksort(arr, low, high):
     if low >= high:
-        # print(arr)
         return
     i = partition(arr, low, high)
     quicksort(arr, low, i - 1)
